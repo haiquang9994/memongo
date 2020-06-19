@@ -1,0 +1,29 @@
+{
+    "name": "haiquang9994/memongo",
+    "description": "Query builder for mongodb.",
+    "license": "MIT",
+    "keywords": [
+        "haiquang9994",
+        "mongo",
+        "mongodb",
+        "query",
+        "builder"
+    ],
+    "authors": [
+        {
+            "name": "Nguyen Hai Quang",
+            "email": "haiquang9994@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MeMongo\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    }
+}
